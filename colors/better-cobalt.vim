@@ -137,12 +137,15 @@ hi rubyClassDeclaration        ctermfg=220  ctermbg=NONE  cterm=NONE     guifg=#
 hi erubyDelimiter  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
 hi link erubyComment Comment
 
-
 " Rails colors
 "
 hi railsMethod          ctermfg=215  ctermbg=NONE  cterm=NONE  guifg=#ffb054  guibg=NONE  gui=NONE
 hi erubyRailsUserClass  ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
 
+" Perl colors¬
+"¬
+hi perlIdentifier  ctermfg=249  ctermbg=NONE  cterm=NONE     guifg=#bbbbbb  guibg=NONE  gui=NONE¬
+hi link perlVarSimpleMemberName  Constant
 
 " YAML colors
 "
