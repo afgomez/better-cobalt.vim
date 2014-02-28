@@ -86,6 +86,7 @@ hi cssClassName  ctermfg=77   ctermbg=NONE  cterm=NONE  guifg=#5fe460  guibg=NON
 hi cssProp       ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
 hi cssImportant  ctermfg=160  ctermbg=NONE  cterm=NONE  guifg=#CC0000  guibg=NONE  gui=NONE
 hi cssVendor     ctermfg=160  ctermbg=NONE  cterm=NONE  guifg=#CC0000  guibg=NONE  gui=NONE
+hi link  cssClassNameDot    cssClassName
 hi link  cssBraces          Normal
 hi link  cssAttrComma       Normal
 hi link  cssUnitDecorators  Keyword
