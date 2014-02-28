@@ -142,16 +142,16 @@ hi link erubyComment Comment
 hi railsMethod          ctermfg=215  ctermbg=NONE  cterm=NONE  guifg=#ffb054  guibg=NONE  gui=NONE
 hi erubyRailsUserClass  ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
 
-" Perl colors¬
-"¬
-hi perlIdentifier  ctermfg=249  ctermbg=NONE  cterm=NONE     guifg=#bbbbbb  guibg=NONE  gui=NONE¬
+" Perl colors
+"
+hi perlIdentifier  ctermfg=249  ctermbg=NONE  cterm=NONE     guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi link perlVarSimpleMemberName  Constant
 
-" TMPL colors¬
-"¬
-hi tmpl_tag       ctermfg=77  ctermbg=NONE  cterm=NONE  guifg=#5fe460  guibg=NONE  gui=NONE¬
-hi tmpl_brackets  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE¬
-hi link tmpl_arg StorageClass¬
+" TMPL colors
+"
+hi tmpl_tag       ctermfg=77  ctermbg=NONE  cterm=NONE  guifg=#5fe460  guibg=NONE  gui=NONE
+hi tmpl_brackets  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
+hi link tmpl_arg StorageClass
 
 " YAML colors
 "
