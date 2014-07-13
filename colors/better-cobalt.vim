@@ -124,15 +124,15 @@ hi link  javascriptjQuery      Keyword
 
 " Ruby colors
 "
-hi rubySymbol                  ctermfg=204  ctermbg=NONE  cterm=NONE     guifg=#ff628c  guibg=NONE  gui=NONE
-hi rubyStringDelimiter         ctermfg=76   ctermbg=NONE  cterm=NONE     guifg=#3ad900  guibg=NONE  gui=NONE
-hi rubyInterpolation           ctermfg=120  ctermbg=NONE  cterm=NONE     guifg=#9eff80  guibg=NONE  gui=NONE
-hi rubyInterpolationDelimiter  ctermfg=120  ctermbg=NONE  guifg=#9eff80  guibg=NONE     gui=NONE
-hi rubyInstanceVariable        ctermfg=249  ctermbg=NONE  cterm=NONE     guifg=#bbbbbb  guibg=NONE  gui=NONE
-hi rubyClassVariable           ctermfg=249  ctermbg=NONE  cterm=NONE     guifg=#bbbbbb  guibg=NONE  gui=NONE
-hi rubyBlockParameter          ctermfg=249  ctermbg=NONE  cterm=NONE     guifg=#bbbbbb  guibg=NONE  gui=NONE
-hi rubyConstant                ctermfg=121  ctermbg=NONE  cterm=NONE     guifg=#80ffbb  guibg=NONE  gui=NONE
-hi rubyClassDeclaration        ctermfg=220  ctermbg=NONE  cterm=NONE     guifg=#ffdd00  guibg=NONE  gui=NONE
+hi rubySymbol                  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
+hi rubyStringDelimiter         ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
+hi rubyInterpolation           ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
+hi rubyInterpolationDelimiter  ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
+hi rubyInstanceVariable        ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
+hi rubyClassVariable           ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
+hi rubyBlockParameter          ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
+hi rubyConstant                ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
+hi rubyClassDeclaration        ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
 
 hi erubyDelimiter  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
 hi link erubyComment Comment
