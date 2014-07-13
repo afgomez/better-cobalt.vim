@@ -8,7 +8,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "Vimcobalt"
+let g:colors_name = "BetterCobalt"
 
 " Interface colors
 "
