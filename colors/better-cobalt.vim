@@ -162,6 +162,12 @@ hi link  yamlBlockMappingKey    Type
 hi link  yamlBlockMappingMerge  Keyword
 hi link  yamlPlainScalar        String
 
+
+" C Colors
+"
+hi cInclude ctermfg=153  ctermbg=NONE cterm=NONE guifg=#afc4db guibg=NONE gui=NONE
+hi cSpecial ctermfg=120  ctermbg=NONE cterm=NONE guifg=#9eff80 guibg=NONE gui=NONE
+
 " Ctrl-P colors
 "
 hi CtrlPTabExtra ctermfg=15 ctermbg=NONE cterm=NONE
