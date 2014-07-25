@@ -163,6 +163,11 @@ hi link  yamlBlockMappingKey    Type
 hi link  yamlBlockMappingMerge  Keyword
 hi link  yamlPlainScalar        String
 
+" Shell script colors
+"
+hi shVariable    ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
+hi link shDeref shVariable
+hi link shQuote String
 
 " C Colors
 "
