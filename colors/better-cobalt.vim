@@ -146,6 +146,8 @@ hi erubyRailsUserClass  ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  gu
 "
 hi perlIdentifier     ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi perlSpecialString  ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
+hi link perlMatch String
+hi link perlMatchStartEnd perlMatch
 hi link perlVarSimpleMemberName  Constant
 
 " TMPL colors
