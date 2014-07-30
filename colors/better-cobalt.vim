@@ -55,10 +55,10 @@ hi Title ctermfg=227 ctermbg=NONE cterm=bold guifg=#ffff66 guibg=NONE gui=bold
 
 " Diff colors
 "
-hi DiffAdd     ctermfg=64  ctermbg=NONE  cterm=NONE  guifg=#40800d guibg=NONE      gui=NONE
-hi DiffDelete  ctermfg=88  ctermbg=NONE  cterm=NONE  guifg=#850409  guibg=NONE     gui=NONE
-hi DiffChange  ctermfg=15  ctermbg=23    cterm=NONE  guifg=#ffffff  guibg=#143059  gui=NONE
-hi DiffText    ctermfg=15  ctermbg=24    cterm=bold  guifg=#ffffff  guibg=#204a87  gui=bold
+hi DiffAdd     ctermfg=15  ctermbg=64  cterm=NONE  guifg=#ffffff  guibg=#40800d  gui=NONE
+hi DiffDelete  ctermfg=15  ctermbg=88  cterm=NONE  guifg=#ffffff  guibg=#850409  gui=NONE
+hi DiffChange  ctermfg=15  ctermbg=24  cterm=NONE  guifg=#ffffff  guibg=#143059  gui=NONE
+hi DiffText    ctermfg=15  ctermbg=31  cterm=bold  guifg=#ffffff  guibg=#204a87  gui=bold
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 
