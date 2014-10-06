@@ -31,6 +31,7 @@ hi Pmenu         ctermfg=253 ctermbg=235 cterm=NONE guifg=#dddddd guibg=#212121 
 hi PmenuSel      ctermfg=15  ctermbg=53  cterm=bold guifg=#ffffff guibg=#674031 gui=bold
 
 hi Folded        ctermfg=102 ctermbg=NONE cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
+hi FoldColumn    ctermfg=102 ctermbg=NONE cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
 
 " General coding colors
 "
