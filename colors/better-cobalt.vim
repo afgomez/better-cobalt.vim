@@ -30,6 +30,8 @@ hi IncSearch     ctermfg=226  ctermbg=NONE  cterm=bold,underline  guifg=#ffff00 
 hi Pmenu         ctermfg=253 ctermbg=235 cterm=NONE guifg=#dddddd guibg=#212121 gui=NONE
 hi PmenuSel      ctermfg=15  ctermbg=53  cterm=bold guifg=#ffffff guibg=#674031 gui=bold
 
+hi Folded        ctermfg=102 ctermbg=NONE cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
+
 " General coding colors
 "
 hi Constant      ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
