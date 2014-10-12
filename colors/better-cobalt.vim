@@ -46,7 +46,7 @@ hi Define        ctermfg=208  ctermbg=NONE  cterm=NONE  guifg=#ff9d00  guibg=NON
 hi Conditional   ctermfg=208  ctermbg=NONE  cterm=NONE  guifg=#ff9d00  guibg=NONE  gui=NONE
 hi Operator      ctermfg=208  ctermbg=NONE  cterm=NONE  guifg=#ff9d00  guibg=NONE  gui=NONE
 hi PreProc       ctermfg=208  ctermbg=NONE  cterm=NONE  guifg=#ff9d00  guibg=NONE  gui=NONE
-hi Type          ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
+hi Type          ctermfg=221  ctermbg=NONE  cterm=NONE  guifg=#ffee80  guibg=NONE  gui=NONE
 hi StorageClass  ctermfg=221  ctermbg=NONE  cterm=NONE  guifg=#ffee80  guibg=NONE  gui=NONE
 
 hi Number  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
@@ -123,7 +123,6 @@ hi link  jsThis                Constant
 hi link  jsPrototype           Constant
 hi link  jsNull                Constant
 hi link  jsUndefined           Constant
-hi link  jsFunction            StorageClass
 hi link  jsDocTags             Todo
 hi link  javascriptunderscore  Keyword
 hi link  javascriptjQuery      Keyword
