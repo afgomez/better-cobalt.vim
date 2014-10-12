@@ -10,8 +10,7 @@ endif
 
 let g:colors_name = "BetterCobalt"
 
-" Interface colors
-"
+" Interface colors {{{
 hi Normal        ctermfg=15     ctermbg=NONE  cterm=NONE  guifg=#ffffff  guibg=#071027  gui=NONE
 hi NonText       ctermfg=235    ctermbg=NONE  cterm=NONE  guifg=#2b3749  guibg=NONE     gui=NONE
 hi SpecialKey    ctermfg=235    ctermbg=NONE  cterm=NONE  guifg=#2b3749  guibg=NONE     gui=NONE
@@ -32,9 +31,8 @@ hi PmenuSel      ctermfg=15  ctermbg=53  cterm=bold guifg=#ffffff guibg=#674031 
 
 hi Folded        ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
 hi FoldColumn    ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
-
-" General coding colors
-"
+" }}}
+" General coding colors {{{
 hi Identifier    ctermfg=251  ctermbg=NONE  cterm=NONE  guifg=#cccccc  guibg=NONE  gui=NONE
 hi Constant      ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
 hi String        ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
@@ -54,41 +52,34 @@ hi Float   ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui
 
 hi Comment  ctermfg=26  ctermbg=NONE  cterm=NONE  guifg=#0066cc  guibg=NONE  gui=italic
 hi Todo     ctermfg=51  ctermbg=NONE  cterm=NONE  guifg=#00FFFF  guibg=NONE  gui=italic
-
-" General markup colors
-"
+" }}}
+" General markup colors {{{
 hi Title ctermfg=227 ctermbg=NONE cterm=bold guifg=#ffff66 guibg=NONE gui=bold
-
-
-" Diff colors
-"
+" }}}
+" Diff colors {{{
 hi DiffAdd     ctermfg=15  ctermbg=64  cterm=NONE  guifg=#ffffff  guibg=#40800d  gui=NONE
 hi DiffDelete  ctermfg=15  ctermbg=88  cterm=NONE  guifg=#ffffff  guibg=#850409  gui=NONE
 hi DiffChange  ctermfg=15  ctermbg=24  cterm=NONE  guifg=#ffffff  guibg=#143059  gui=NONE
 hi DiffText    ctermfg=15  ctermbg=31  cterm=bold  guifg=#ffffff  guibg=#204a87  gui=bold
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
-
-" Syntastic colors
-"
+" }}}
+" Syntastic colors {{{
 hi SyntasticError        ctermfg=16    ctermbg=160   cterm=NONE  guifg=NONE     guibg=#cc0000  gui=NONE
 hi SyntasticWarning      ctermfg=16    ctermbg=166   cterm=NONE  guifg=NONE     guibg=#cc0000  gui=NONE
 hi SyntasticErrorSign    ctermfg=160   ctermbg=NONE  cterm=NONE  guifg=#cc0000  guibg=NONE     gui=NONE
 hi SyntasticWarningSign  ctermfg=220   ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE     gui=NONE
 hi SyntasticErrorLine    ctermfg=NONE  ctermbg=52    cterm=NONE  guifg=NONE     guibg=#660000  gui=NONE
 hi SyntasticWarningLine  ctermfg=NONE  ctermbg=52    cterm=NONE  guifg=NONE     guibg=#660000  gui=NONE
-
-
-" HTML colors
-"
+" }}}
+" HTML colors {{{
 hi htmlTag      ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi htmlEndTag   ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi htmlTagName  ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi htmlArg      ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi link htmlSpecialChar Constant
-
-" CSS/SASS colors
-"
+" }}}
+" CSS/SASS colors {{{
 hi cssClassName  ctermfg=77   ctermbg=NONE  cterm=NONE  guifg=#5fe460  guibg=NONE  gui=NONE
 hi cssProp       ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
 hi cssImportant  ctermfg=160  ctermbg=NONE  cterm=NONE  guifg=#CC0000  guibg=NONE  gui=NONE
@@ -115,9 +106,8 @@ hi link  sassClassChar  sassClass
 hi link  sassClass      cssClassName
 hi link  sassAmpersand  Keyword
 
-
-" Javascript colors
-"
+" }}}
+" Javascript colors {{{
 hi jsGlobalObjects ctermfg=121 ctermbg=NONE cterm=NONE guifg=#80ffbb guibg=NONE gui=NONE
 hi link  jsThis                Constant
 hi link  jsPrototype           Constant
@@ -126,10 +116,8 @@ hi link  jsUndefined           Constant
 hi link  jsDocTags             Todo
 hi link  javascriptunderscore  Keyword
 hi link  javascriptjQuery      Keyword
-
-
-" Ruby colors
-"
+" }}}
+" Ruby colors {{{
 hi rubySymbol                  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
 hi rubyStringDelimiter         ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
 hi rubyInterpolation           ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
@@ -142,46 +130,46 @@ hi rubyClassDeclaration        ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffd
 
 hi erubyDelimiter  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
 hi link erubyComment Comment
-
-" Rails colors
-"
+" }}}
+" Rails colors {{{
 hi railsMethod          ctermfg=215  ctermbg=NONE  cterm=NONE  guifg=#ffb054  guibg=NONE  gui=NONE
 hi erubyRailsUserClass  ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
-
-" Perl colors
-"
+" }}}
+" Perl colors {{{
 hi perlIdentifier     ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi perlSpecialString  ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
 hi link perlMatch String
 hi link perlMatchStartEnd perlMatch
 hi link perlVarSimpleMemberName  Constant
-
-" TMPL colors
-"
+" }}}
+" TMPL colors {{{
 hi tmpl_tag       ctermfg=77  ctermbg=NONE  cterm=NONE  guifg=#5fe460  guibg=NONE  gui=NONE
 hi tmpl_brackets  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
 hi link tmpl_arg StorageClass
-
-" YAML colors
-"
+" }}}
+" YAML colors {{{
 hi link  yamlAnchor             StorageClass
 hi link  yamlAlias              StorageClass
 hi link  yamlKeyValueDelimiter  Type
 hi link  yamlBlockMappingKey    Type
 hi link  yamlBlockMappingMerge  Keyword
 hi link  yamlPlainScalar        String
-
-" Shell script colors
-"
+" }}}
+" Shell script colors {{{
 hi shVariable    ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi link shDeref shVariable
 hi link shQuote String
-
-" C Colors
-"
+" }}}
+" Rust {{{
+hi link rustIdentifier StorageClass
+hi link rustFuncCall   Normal
+" }}}
+" C/C++ {{{
 hi cInclude ctermfg=153  ctermbg=NONE cterm=NONE guifg=#afc4db guibg=NONE gui=NONE
 hi cSpecial ctermfg=120  ctermbg=NONE cterm=NONE guifg=#9eff80 guibg=NONE gui=NONE
-
-" Ctrl-P colors
-"
+" }}}
+" Ctrl-P colors {{{
 hi CtrlPTabExtra ctermfg=15 ctermbg=NONE cterm=NONE
+" }}}
+
+" vim: foldmethod=marker:foldlevel=0
