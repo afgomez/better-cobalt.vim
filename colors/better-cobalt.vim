@@ -54,7 +54,7 @@ hi Comment  ctermfg=26  ctermbg=NONE  cterm=NONE  guifg=#0066cc  guibg=NONE  gui
 hi Todo     ctermfg=51  ctermbg=NONE  cterm=NONE  guifg=#00FFFF  guibg=NONE  gui=italic
 " }}}
 " General markup colors {{{
-hi Title ctermfg=227 ctermbg=NONE cterm=bold guifg=#ffff66 guibg=NONE gui=bold
+hi Title ctermfg=220 ctermbg=NONE cterm=bold guifg=#FFDD00 guibg=NONE gui=bold
 " }}}
 " Diff colors {{{
 hi DiffAdd     ctermfg=15  ctermbg=64  cterm=NONE  guifg=#ffffff  guibg=#40800d  gui=NONE
@@ -159,6 +159,12 @@ hi link  yamlPlainScalar        String
 hi shVariable    ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi link shDeref shVariable
 hi link shQuote String
+" }}}
+" Markdown {{{
+hi markdownHeadingDelimiter ctermfg=153 ctermbg=NONE cterm=NONE guifg=#C8E4FD guibg=NONE gui=bold
+" }}}
+" gitcommit {{{
+hi link gitcommitSummary title
 " }}}
 " Rust {{{
 hi link rustIdentifier StorageClass
