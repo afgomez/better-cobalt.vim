@@ -175,6 +175,7 @@ hi cInclude ctermfg=153  ctermbg=NONE cterm=NONE guifg=#afc4db guibg=NONE gui=NO
 hi cSpecial ctermfg=120  ctermbg=NONE cterm=NONE guifg=#9eff80 guibg=NONE gui=NONE
 " }}}
 " Ctrl-P colors {{{
+hi link CtrlPMatch Search
 hi CtrlPTabExtra ctermfg=15 ctermbg=NONE cterm=NONE
 " }}}
 
