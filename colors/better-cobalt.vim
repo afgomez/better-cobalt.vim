@@ -31,6 +31,8 @@ hi PmenuSel      ctermfg=15  ctermbg=53  cterm=bold guifg=#ffffff guibg=#674031 
 
 hi Folded        ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
 hi FoldColumn    ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
+
+hi MatchParen    ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 " }}}
 " General coding colors {{{
 hi Identifier    ctermfg=251  ctermbg=NONE  cterm=NONE  guifg=#cccccc  guibg=NONE  gui=NONE
