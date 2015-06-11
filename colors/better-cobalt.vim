@@ -29,8 +29,8 @@ hi IncSearch     ctermfg=226  ctermbg=NONE  cterm=bold,underline  guifg=#ffff00 
 hi Pmenu         ctermfg=253 ctermbg=235 cterm=NONE guifg=#dddddd guibg=#212121 gui=NONE
 hi PmenuSel      ctermfg=15  ctermbg=53  cterm=bold guifg=#ffffff guibg=#674031 gui=NONE
 
-hi Folded        ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
-hi FoldColumn    ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=italic
+hi Folded        ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=NONE
+hi FoldColumn    ctermfg=145 ctermbg=17 cterm=NONE guifg=#738eaa guibg=#132137 gui=NONE
 
 hi MatchParen    ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 " }}}
@@ -52,8 +52,8 @@ hi StorageClass  ctermfg=221  ctermbg=NONE  cterm=NONE  guifg=#ffee80  guibg=NON
 hi Number  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
 hi Float   ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
 
-hi Comment  ctermfg=26  ctermbg=NONE  cterm=NONE  guifg=#0066cc  guibg=NONE  gui=italic
-hi Todo     ctermfg=51  ctermbg=NONE  cterm=NONE  guifg=#00FFFF  guibg=NONE  gui=italic
+hi Comment  ctermfg=26  ctermbg=NONE  cterm=NONE  guifg=#0066cc  guibg=NONE  gui=NONE
+hi Todo     ctermfg=51  ctermbg=NONE  cterm=NONE  guifg=#00FFFF  guibg=NONE  gui=NONE
 " }}}
 " General markup colors {{{
 hi Title ctermfg=220 ctermbg=NONE cterm=bold guifg=#FFDD00 guibg=NONE gui=bold
