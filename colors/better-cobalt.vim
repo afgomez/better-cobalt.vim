@@ -94,7 +94,7 @@ hi link  cssTagName         htmlTag
 hi link  cssIdentifier      Keyword
 hi link  cssFontDescriptor  Keyword
 hi link  cssFunctionName    Keyword
-hi link  cssPseudoClassId   Type
+hi link  cssPseudoClassId   Function
 hi link  cssAttr            StorageClass
 hi link  cssValueLength     cssAttr
 hi link  cssValueNumber     cssAttr
