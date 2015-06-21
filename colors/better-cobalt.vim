@@ -181,4 +181,4 @@ hi link CtrlPMatch Search
 hi CtrlPTabExtra ctermfg=15 ctermbg=NONE cterm=NONE
 " }}}
 
-" vim: foldmethod=marker:foldlevel=0
+" vim: foldmethod=marker
