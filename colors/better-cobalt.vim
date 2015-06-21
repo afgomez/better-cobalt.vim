@@ -99,6 +99,9 @@ hi link  cssAttr            StorageClass
 hi link  cssValueLength     cssAttr
 hi link  cssValueNumber     cssAttr
 hi link  cssColor           cssAttr
+hi link  cssSelectorOp      normal
+hi link  cssAttributeSelector  Function
+hi link  cssSelectorOp2     cssAttributeSelector
 
 hi sassVariable ctermfg=249 ctermbg=NONE cterm=NONE guifg=#BBBBBB guibg=NONE gui=NONE
 hi link  sassIdChar     sassId
