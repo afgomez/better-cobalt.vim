@@ -149,7 +149,6 @@ hi link perlVarSimpleMemberName  Constant
 " }}}
 " TMPL colors {{{
 hi tmpl_tag       ctermfg=121 ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
-hi tmpl_brackets  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
 " }}}
 " YAML colors {{{
 hi link  yamlAnchor             StorageClass
