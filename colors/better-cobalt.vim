@@ -112,6 +112,10 @@ hi link  sassClass      cssClassName
 hi link  sassAmpersand  Keyword
 
 " }}}
+" HAML colors {{{
+hi link hamlClass cssClassName
+hi link hamlId cssIdentifier
+" }}}
 " Javascript colors {{{
 hi jsGlobalObjects ctermfg=121 ctermbg=NONE cterm=NONE guifg=#80ffbb guibg=NONE gui=NONE
 hi link  jsThis                Constant
