@@ -118,6 +118,7 @@ hi link hamlId cssIdentifier
 " }}}
 " Javascript colors {{{
 hi jsGlobalObjects ctermfg=121 ctermbg=NONE cterm=NONE guifg=#80ffbb guibg=NONE gui=NONE
+hi jsBuiltins      ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffb054 guibg=NONE gui=NONE
 hi link  jsThis                Constant
 hi link  jsPrototype           Constant
 hi link  jsNull                Constant
