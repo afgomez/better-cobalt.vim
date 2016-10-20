@@ -78,12 +78,17 @@ hi SyntasticWarningSign  ctermfg=220   ctermbg=NONE  cterm=NONE  guifg=#ffdd00  
 hi SyntasticErrorLine    ctermfg=NONE  ctermbg=52    cterm=NONE  guifg=NONE     guibg=#660000  gui=NONE
 hi SyntasticWarningLine  ctermfg=NONE  ctermbg=52    cterm=NONE  guifg=NONE     guibg=#660000  gui=NONE
 " }}}
-" HTML colors {{{
+" HTML/XML colors {{{
 hi htmlTag      ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi htmlEndTag   ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi htmlTagName  ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi htmlArg      ctermfg=123  ctermbg=NONE  cterm=NONE  guifg=#9effff  guibg=NONE  gui=NONE
 hi link htmlSpecialChar Constant
+
+hi link xmlTag     htmlTag
+hi link xmlEndTag  htmlTag
+hi link xmlTagName htmlTag
+hi link xmlAttrib  htmlArg
 " }}}
 " CSS/SASS colors {{{
 hi cssClassName  ctermfg=77   ctermbg=NONE  cterm=NONE  guifg=#5fe460  guibg=NONE  gui=NONE
