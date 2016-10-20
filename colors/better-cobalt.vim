@@ -66,6 +66,10 @@ hi DiffText    ctermfg=15  ctermbg=31  cterm=bold  guifg=#ffffff  guibg=#204a87 
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 " }}}
+" Neomake colors {{{
+hi NeomakeWarningSign  ctermfg=220   ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=#132137  gui=NONE
+hi NeomakeErrorSign    ctermfg=160   ctermbg=NONE  cterm=NONE  guifg=#cc0000  guibg=#132137  gui=NONE
+" }}}
 " Syntastic colors {{{
 hi SyntasticError        ctermfg=16    ctermbg=160   cterm=NONE  guifg=NONE     guibg=#cc0000  gui=NONE
 hi SyntasticWarning      ctermfg=16    ctermbg=166   cterm=NONE  guifg=NONE     guibg=#cc0000  gui=NONE
