@@ -141,7 +141,6 @@ hi link  javascriptjQuery      Keyword
 " Ruby colors {{{
 hi rubySymbol                  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
 hi rubyStringDelimiter         ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
-hi rubyInterpolation           ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
 hi rubyInterpolationDelimiter  ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
 hi rubyInstanceVariable        ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi rubyClassVariable           ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
@@ -160,8 +159,9 @@ hi railsMethod          ctermfg=215  ctermbg=NONE  cterm=NONE  guifg=#ffb054  gu
 hi erubyRailsUserClass  ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
 " }}}
 " Elixir colors {{{
-hi elixirModuleDeclaration  ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
-hi elixirAlias              ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
+hi elixirModuleDeclaration       ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
+hi elixirAlias                   ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
+hi elixirInterpolationDelimiter  ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
 hi link elixirStringDelimiter String
 " }}}
 " Perl colors {{{
