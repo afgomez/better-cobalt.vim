@@ -38,6 +38,7 @@ hi MatchParen    ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE
 hi Identifier    ctermfg=251  ctermbg=NONE  cterm=NONE  guifg=#cccccc  guibg=NONE  gui=NONE
 hi Constant      ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
 hi String        ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
+hi Regexp        ctermfg=122  ctermbg=NONE  cterm=NONE  guifg=#80ffc2  guibg=NONE  gui=NONE
 hi Character     ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
 hi Function      ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
 hi Statement     ctermfg=208  ctermbg=NONE  cterm=NONE  guifg=#ff9d00  guibg=NONE  gui=NONE
@@ -128,6 +129,7 @@ hi link hamlId cssIdentifier
 " Javascript colors {{{
 hi jsGlobalObjects ctermfg=121 ctermbg=NONE cterm=NONE guifg=#80ffbb guibg=NONE gui=NONE
 hi jsBuiltins      ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffb054 guibg=NONE gui=NONE
+hi link  jsRegexpString        Regexp
 hi link  jsThis                Constant
 hi link  jsPrototype           Constant
 hi link  jsNull                Constant
@@ -146,6 +148,9 @@ hi rubyClassVariable           ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbb
 hi rubyBlockParameter          ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi rubyConstant                ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
 hi rubyClassDeclaration        ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
+hi link rubyRegexp Regexp
+hi link rubyRegexpDelimiter Regexp
+hi link rubyStringDelimiter rubyString
 
 hi erubyDelimiter  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
 hi link erubyComment Comment
