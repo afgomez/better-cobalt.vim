@@ -8,7 +8,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "BetterCobalt"
+let g:colors_name = "better-cobalt"
 
 " Interface colors {{{
 hi Normal        ctermfg=15     ctermbg=NONE  cterm=NONE  guifg=#ffffff  guibg=#071027  gui=NONE
