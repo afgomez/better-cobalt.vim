@@ -23,6 +23,9 @@ hi ColorColumn   ctermfg=NONE   ctermbg=233   cterm=NONE  guifg=NONE     guibg=#
 hi Visual        ctermfg=NONE   ctermbg=53    cterm=NONE  guifg=NONE     guibg=#674031  gui=NONE
 hi VertSplit     ctermfg=233    ctermbg=233   cterm=NONE  guifg=#121212  guibg=#121212  gui=NONE
 
+hi StatusLine    ctermfg=253    ctermbg=233   cterm=NONE  guifg=#ffffff  guibg=#132137  gui=NONE
+hi StatusLineNC  ctermfg=240    ctermbg=232   cterm=NONE  guifg=#364350  guibg=#132137  gui=NONE
+
 hi Search        ctermfg=226  ctermbg=NONE  cterm=bold,underline  guifg=#ffff00  guibg=NONE  gui=bold,underline
 hi IncSearch     ctermfg=226  ctermbg=NONE  cterm=bold,underline  guifg=#ffff00  guibg=NONE  gui=bold,underline
 
