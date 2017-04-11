@@ -129,6 +129,13 @@ hi link  sassAmpersand  Keyword
 hi link hamlClass cssClassName
 hi link hamlId cssIdentifier
 " }}}
+" SLIM colors {{{
+hi link slimClass     cssClassName
+hi link slimClassChar cssClassName
+hi link slimId        cssIdentifier
+hi link slimIdChar    cssIdentifier
+hi link slimAttr      cssAttr
+" }}}
 " Javascript colors {{{
 hi jsGlobalObjects ctermfg=121 ctermbg=NONE cterm=NONE guifg=#80ffbb guibg=NONE gui=NONE
 hi jsBuiltins      ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffb054 guibg=NONE gui=NONE
