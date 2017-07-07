@@ -167,6 +167,7 @@ hi link erubyComment Comment
 " Rails colors {{{
 hi railsMethod          ctermfg=215  ctermbg=NONE  cterm=NONE  guifg=#ffb054  guibg=NONE  gui=NONE
 hi erubyRailsUserClass  ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
+hi rubyViewHelper railsMethod
 " }}}
 " Elixir colors {{{
 hi elixirModuleDeclaration       ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
