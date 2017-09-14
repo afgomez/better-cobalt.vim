@@ -140,6 +140,7 @@ hi link slimAttr      cssAttr
 hi jsGlobalObjects ctermfg=121 ctermbg=NONE cterm=NONE guifg=#80ffbb guibg=NONE gui=NONE
 hi jsBuiltins      ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffb054 guibg=NONE gui=NONE
 hi link  jsFunction            Keyword
+hi link  jsArrowFunction       Keyword
 hi link  jsStorageClass        Keyword
 hi link  jsRegexpString        Regexp
 hi link  jsThis                Constant
