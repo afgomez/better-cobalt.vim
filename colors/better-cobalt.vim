@@ -139,6 +139,8 @@ hi link slimAttr      cssAttr
 " Javascript colors {{{
 hi jsGlobalObjects ctermfg=121 ctermbg=NONE cterm=NONE guifg=#80ffbb guibg=NONE gui=NONE
 hi jsBuiltins      ctermfg=215 ctermbg=NONE cterm=NONE guifg=#ffb054 guibg=NONE gui=NONE
+hi link  jsFunction            Keyword
+hi link  jsStorageClass        Keyword
 hi link  jsRegexpString        Regexp
 hi link  jsThis                Constant
 hi link  jsPrototype           Constant
@@ -147,6 +149,11 @@ hi link  jsUndefined           Constant
 hi link  jsDocTags             Todo
 hi link  javascriptunderscore  Keyword
 hi link  javascriptjQuery      Keyword
+hi link  jsFlowObject          Normal
+hi link  jsFlowType            Type
+hi link  jsFlowDefinition      Type
+hi link  jsFlowArgumentDef     Type
+hi link  jsFlowTypeCustom      Type
 " }}}
 " Ruby colors {{{
 hi rubySymbol                  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
