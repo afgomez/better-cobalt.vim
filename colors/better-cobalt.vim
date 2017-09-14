@@ -150,11 +150,13 @@ hi link  jsUndefined           Constant
 hi link  jsDocTags             Todo
 hi link  javascriptunderscore  Keyword
 hi link  javascriptjQuery      Keyword
-hi link  jsFlowObject          Normal
-hi link  jsFlowType            Type
-hi link  jsFlowDefinition      Type
-hi link  jsFlowArgumentDef     Type
-hi link  jsFlowTypeCustom      Type
+
+hi link  jsFlowObject           Normal
+hi link  jsFlowType             Type
+hi link  jsFlowDefinition       Type
+hi link  jsFlowArgumentDef      Type
+hi link  jsFlowTypeCustom       Type
+hi link  jsFlowParenAnnotation  Type
 " }}}
 " Ruby colors {{{
 hi rubySymbol                  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
