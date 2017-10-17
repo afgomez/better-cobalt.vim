@@ -126,8 +126,11 @@ hi link  sassAmpersand  Keyword
 
 " }}}
 " HAML colors {{{
-hi link hamlClass cssClassName
-hi link hamlId cssIdentifier
+hi link hamlClass     cssClassName
+hi link hamlClassChar cssClassName
+hi link hamlId        cssIdentifier
+hi link hamltag       htmlTagName
+hi link hamlRubyChar  eRubyDelimiter
 " }}}
 " SLIM colors {{{
 hi link slimClass     cssClassName
