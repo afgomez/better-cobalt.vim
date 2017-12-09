@@ -160,6 +160,15 @@ hi link  jsFlowDefinition       Type
 hi link  jsFlowArgumentDef      Type
 hi link  jsFlowTypeCustom       Type
 hi link  jsFlowParenAnnotation  Type
+
+hi link typescriptBrowserObjects jsGlobalObjects
+hi link typescriptLogicSymbols Operator
+hi link typescriptBraces Normal
+hi link typescriptEndColons Normal
+hi link typescriptParens Normal
+hi link typescriptRegexpString Regexp
+hi link typescriptNull Constant
+hi link typescriptFuncKeyword Keyword
 " }}}
 " Ruby colors {{{
 hi rubySymbol                  ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
