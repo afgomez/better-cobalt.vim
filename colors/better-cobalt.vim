@@ -36,6 +36,11 @@ hi Folded        ctermfg=145 ctermbg=233 cterm=NONE guifg=#738eaa guibg=#132137 
 hi FoldColumn    ctermfg=145 ctermbg=233 cterm=NONE guifg=#738eaa guibg=#132137 gui=NONE
 
 hi MatchParen    ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+
+hi Directory     ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
+
+hi link QuickFixLine PmenuSel
+hi link qfLineNr     Constant
 " }}}
 " General coding colors {{{
 hi Identifier    ctermfg=251  ctermbg=NONE  cterm=NONE  guifg=#cccccc  guibg=NONE  gui=NONE
