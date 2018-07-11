@@ -226,6 +226,10 @@ hi link jsonKeyword Type
 hi link jsonBraces  Normal
 hi link jsonQuote   NONE
 " }}}
+" TOML {{{
+hi link tomlKey Type
+hi link tomlTable Keyword
+" }}}
 " Shell script colors {{{
 hi shVariable    ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi link shDeref shVariable
