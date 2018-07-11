@@ -237,6 +237,10 @@ hi markdownHeadingDelimiter ctermfg=153 ctermbg=NONE cterm=NONE guifg=#C8E4FD gu
 " gitcommit {{{
 hi link gitcommitSummary title
 " }}}
+" gitconfig {{{
+hi link gitconfigVariable Type
+hi link gitconfigDelim String
+" }}}
 " Rust {{{
 hi link rustIdentifier StorageClass
 hi link rustFuncCall   Normal
