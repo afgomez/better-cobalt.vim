@@ -221,6 +221,11 @@ hi link  yamlBlockMappingKey    Type
 hi link  yamlBlockMappingMerge  Keyword
 hi link  yamlPlainScalar        String
 " }}}
+" JSON colors {{{
+hi link jsonKeyword Type
+hi link jsonBraces  Normal
+hi link jsonQuote   NONE
+" }}}
 " Shell script colors {{{
 hi shVariable    ctermfg=249  ctermbg=NONE  cterm=NONE  guifg=#bbbbbb  guibg=NONE  gui=NONE
 hi link shDeref shVariable
