@@ -46,6 +46,7 @@ hi link qfLineNr     Constant
 hi Identifier    ctermfg=251  ctermbg=NONE  cterm=NONE  guifg=#cccccc  guibg=NONE  gui=NONE
 hi Constant      ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui=NONE
 hi String        ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
+hi Special       ctermfg=120  ctermbg=NONE  cterm=NONE  guifg=#9eff80  guibg=NONE  gui=NONE
 hi Regexp        ctermfg=122  ctermbg=NONE  cterm=NONE  guifg=#80ffc2  guibg=NONE  gui=NONE
 hi Character     ctermfg=76   ctermbg=NONE  cterm=NONE  guifg=#3ad900  guibg=NONE  gui=NONE
 hi Function      ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffdd00  guibg=NONE  gui=NONE
