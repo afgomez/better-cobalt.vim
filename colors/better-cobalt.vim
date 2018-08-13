@@ -246,6 +246,10 @@ hi link gitconfigVariable Type
 hi link gitconfigDelim String
 " }}}
 " Rust {{{
+hi rustModPath    ctermfg=121  ctermbg=NONE  cterm=NONE  guifg=#80ffbb  guibg=NONE  gui=NONE
+hi rustAttribute  ctermfg=153  ctermbg=NONE cterm=NONE guifg=#afc4db guibg=NONE gui=NONE
+hi rustLifetime   ctermfg=120  ctermbg=NONE cterm=NONE guifg=#9eff80 guibg=NONE gui=NONE
+hi link rustModPathSep Operator
 hi link rustIdentifier StorageClass
 hi link rustFuncCall   Normal
 " }}}
