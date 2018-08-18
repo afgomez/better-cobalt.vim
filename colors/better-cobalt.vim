@@ -64,6 +64,8 @@ hi Float   ctermfg=204  ctermbg=NONE  cterm=NONE  guifg=#ff628c  guibg=NONE  gui
 
 hi Comment  ctermfg=26  ctermbg=NONE  cterm=NONE  guifg=#0066cc  guibg=NONE  gui=NONE
 hi Todo     ctermfg=51  ctermbg=NONE  cterm=NONE  guifg=#00FFFF  guibg=NONE  gui=NONE
+
+hi link Escape Constant
 " }}}
 " General markup colors {{{
 hi Title ctermfg=220 ctermbg=NONE cterm=bold guifg=#FFDD00 guibg=NONE gui=bold
@@ -157,6 +159,7 @@ hi link  jsPrototype           Constant
 hi link  jsNull                Constant
 hi link  jsUndefined           Constant
 hi link  jsDocTags             Todo
+hi link  jsSpecial             Escape
 hi link  javascriptunderscore  Keyword
 hi link  javascriptjQuery      Keyword
 
@@ -188,6 +191,7 @@ hi rubyClassDeclaration        ctermfg=220  ctermbg=NONE  cterm=NONE  guifg=#ffd
 hi link rubyRegexp Regexp
 hi link rubyRegexpDelimiter Regexp
 hi link rubyStringDelimiter rubyString
+hi link rubyStringEscape    Escape
 
 hi erubyDelimiter  ctermfg=15  ctermbg=NONE  cterm=NONE  guifg=#e1efff  guibg=NONE  gui=NONE
 hi link erubyComment Comment
@@ -253,6 +257,8 @@ hi rustLifetime   ctermfg=120  ctermbg=NONE cterm=NONE guifg=#9eff80 guibg=NONE 
 hi link rustModPathSep Operator
 hi link rustIdentifier StorageClass
 hi link rustFuncCall   Normal
+hi link rustEscape     Escape
+hi link rustStringContinuation Escape
 " }}}
 " C/C++ {{{
 hi cInclude ctermfg=153  ctermbg=NONE cterm=NONE guifg=#afc4db guibg=NONE gui=NONE
